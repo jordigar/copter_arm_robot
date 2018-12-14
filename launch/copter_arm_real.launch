@@ -36,9 +36,9 @@
 
 	<!-- Load the generic PID controller -->
 	<node name="copter_arm_angle_controller" pkg="pid" type="controller" >
-		<param name="Kp" value="0.0" /> <!-- 1.0 -->
-		<param name="Ki" value="0.0" /> <!-- 0.033 -->
-		<param name="Kd" value="0.0" /> <!-- 0.1 -->
+		<param name="Kp" value="0.0" /> <!-- 1.0 o 70-->
+		<param name="Ki" value="0.0" /> <!-- 0.033 o 10-->
+		<param name="Kd" value="0.0" /> <!-- 0.1 o 2-->
 		<param name="upper_limit" value="9999999" />
 		<param name="lower_limit" value="-9999999" />
 		<param name="windup_limit" value="500" />
